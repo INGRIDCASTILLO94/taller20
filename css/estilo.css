@@ -1,0 +1,110 @@
+
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+a{
+    color: rgb(10, 10, 10);
+    text-align: center;
+    font-size: 20px;
+}
+p{
+    color: rgb(7, 7, 7);
+    text-align: center;
+    font-size: 30px;
+}
+h1{
+    padding: 0px;
+    color: rgb(130, 5, 155);
+    text-align: center;
+    font-size: 100px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer>img:hover{
+    transform: rotate(180deg);
+    animation-duration: 10s;
+}
+li{
+    list-style-type: none;
+}
+nav ul{
+    margin: 0;
+    list-style-type: none;
+    overflow: visible;
+    padding: 0;
+    z-index: 0;
+    background-color:rgb(197, 46, 228);
+    display:flex;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;}
+    
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgba(255, 0, 221, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 20px;
+    z-index: 1;
+    }
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+nav ul li{
+    padding: 15px;
+}
+body>div>img{
+    position: sticky;
+    animation-name: minnie;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+}
+@keyframes minnie{
+    0%   { left:0px; top:0px;}
+    50%  { left:1000px; top:50px;}
+    100% { left:0px; top:0px;}
+}
+
+@font-face {
+    font-family: american;
+    src: url(../fuentes/fuente1/AmericanBully.ttf);
+    }
+
+p.fuente1 {
+    font-family: american;
+    }
+    
+@font-face {
+    font-family: rang;
+    src: url(../fuentes/fuente2/Deuxieme_Rang_Italic.otf);
+    }
+
+p.fuente2 {
+    font-family: rang;
+    }
+
+.licencia {
+        flex: 0 0 33.3333333333%;
+        max-width: 33.3333333333%;
+      }
+
+.text-center {
+text-align: center;
+}
+
+.copyright  {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
